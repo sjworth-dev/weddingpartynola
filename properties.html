@@ -1,0 +1,344 @@
+---
+layout: default
+title: Wedding Party Properties in New Orleans
+description: Private homes in New Orleans that fit your entire wedding party. Pool, kitchen, bedrooms for everyone.
+---
+
+<style>
+.properties-hero {
+  padding: calc(80px + var(--spacing-xl)) 0 var(--spacing-lg);
+  background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-ivory) 100%);
+  text-align: center;
+}
+
+.property-detail-card {
+  background: var(--color-white);
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.property-detail-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.property-detail-card:nth-child(even) .property-detail-inner {
+  direction: rtl;
+}
+
+.property-detail-card:nth-child(even) .property-detail-inner > * {
+  direction: ltr;
+}
+
+.property-detail-image {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  background: linear-gradient(135deg, var(--color-sage-light) 0%, var(--color-sage) 100%);
+}
+
+.property-detail-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.property-detail-content h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.property-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  padding: var(--spacing-md) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.highlight-item {
+  text-align: center;
+}
+
+.highlight-number {
+  font-family: var(--font-headline);
+  font-size: 2.5rem;
+  color: var(--color-sage);
+  display: block;
+  line-height: 1;
+}
+
+.highlight-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-light);
+}
+
+.amenity-section {
+  margin: var(--spacing-md) 0;
+}
+
+.amenity-section h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-sm);
+}
+
+.amenity-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.best-for {
+  background: var(--color-cream);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  margin: var(--spacing-md) 0;
+}
+
+.best-for h4 {
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-sage-dark);
+}
+
+.best-for ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.best-for li {
+  padding: var(--spacing-xs) 0;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.best-for li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-sage);
+}
+
+.intro-section {
+  padding: var(--spacing-xl) 0;
+  background: var(--color-white);
+  text-align: center;
+}
+
+.intro-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .property-detail-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .property-detail-card:nth-child(even) .property-detail-inner {
+    direction: ltr;
+  }
+
+  .property-detail-image {
+    min-height: 250px;
+  }
+
+  .property-highlights {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+</style>
+
+<section class="properties-hero">
+  <div class="container">
+    <span class="accent-text">Our Properties</span>
+    <h1>Spaces for Your Wedding Party</h1>
+    <p style="font-size: 1.1rem; color: var(--color-text-light); max-width: 600px; margin: 0 auto;">Private homes that fit your entire wedding party. Pool, kitchen, bedrooms for everyone—without the hotel price tag.</p>
+  </div>
+</section>
+
+<section class="intro-section">
+  <div class="container">
+    <p>These aren't typical vacation rentals. These are properties specifically suited for wedding parties—with the space, amenities, and privacy you need for a wedding weekend.</p>
+  </div>
+</section>
+
+<section class="property-section" style="padding-top: 0;">
+  <div class="container">
+
+    <div id="castleday" class="property-detail-card">
+      <div class="property-detail-inner">
+        <div class="property-detail-image">&#127968;</div>
+        <div class="property-detail-content">
+          <span class="accent-text">Featured Property</span>
+          <h2>Castleday Retreats</h2>
+          <p>The flagship property for large wedding parties. With 8 bedrooms, a private pool, and space for 20+ guests, this is where the entire wedding party stays together.</p>
+
+          <div class="property-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">20+</span>
+              <span class="highlight-label">Guests</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">8</span>
+              <span class="highlight-label">Bedrooms</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">6</span>
+              <span class="highlight-label">Bathrooms</span>
+            </div>
+          </div>
+
+          <div class="amenity-section">
+            <h4>Amenities</h4>
+            <div class="amenity-grid">
+              <span class="amenity-tag">Private Pool</span>
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Chef's Kitchen</span>
+              <span class="amenity-tag">Outdoor Dining</span>
+              <span class="amenity-tag">Multiple Living Areas</span>
+              <span class="amenity-tag">Parking for 8+</span>
+              <span class="amenity-tag">Laundry</span>
+              <span class="amenity-tag">Smart TVs</span>
+              <span class="amenity-tag">High-Speed WiFi</span>
+            </div>
+          </div>
+
+          <div class="best-for">
+            <h4>Perfect For</h4>
+            <ul>
+              <li>Full wedding party (bridesmaids + groomsmen)</li>
+              <li>Large bridal party needing getting-ready space</li>
+              <li>Rehearsal dinner hosting</li>
+              <li>Post-wedding brunch</li>
+            </ul>
+          </div>
+
+          <a href="https://castledayretreats.com" class="btn btn-sage" target="_blank">Check Availability</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="thesyd" class="property-detail-card">
+      <div class="property-detail-inner">
+        <div class="property-detail-image">&#127969;</div>
+        <div class="property-detail-content">
+          <span class="accent-text">Featured Property</span>
+          <h2>The Syd</h2>
+          <p>Elegant and modern with a stunning private courtyard. Perfect for the bridesmaids, a smaller wedding party, or family staying together for the weekend.</p>
+
+          <div class="property-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">16</span>
+              <span class="highlight-label">Guests</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">6</span>
+              <span class="highlight-label">Bedrooms</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">5</span>
+              <span class="highlight-label">Bathrooms</span>
+            </div>
+          </div>
+
+          <div class="amenity-section">
+            <h4>Amenities</h4>
+            <div class="amenity-grid">
+              <span class="amenity-tag">Private Courtyard</span>
+              <span class="amenity-tag">Modern Design</span>
+              <span class="amenity-tag">Full Kitchen</span>
+              <span class="amenity-tag">Open Floor Plan</span>
+              <span class="amenity-tag">Walkable Location</span>
+              <span class="amenity-tag">Multiple Bathrooms</span>
+              <span class="amenity-tag">Laundry</span>
+              <span class="amenity-tag">High-Speed WiFi</span>
+            </div>
+          </div>
+
+          <div class="best-for">
+            <h4>Perfect For</h4>
+            <ul>
+              <li>Bridesmaid-only stays</li>
+              <li>Smaller wedding parties (8-16 guests)</li>
+              <li>Close family gathering</li>
+              <li>Intimate wedding weekend</li>
+            </ul>
+          </div>
+
+          <a href="https://thesyd.com" class="btn btn-sage" target="_blank">Check Availability</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="padding: var(--spacing-xl) 0; background: var(--color-white);">
+  <div class="container">
+    <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+      <span class="accent-text">The Math</span>
+      <h2>How the Cost Compares</h2>
+      <p style="color: var(--color-text-light); margin-bottom: var(--spacing-lg);">When you split a private property among your wedding party, the per-person cost is often less than individual hotel rooms—with far more amenities.</p>
+    </div>
+
+    <div class="comparison-table">
+      <div class="comparison-header">
+        <div>Scenario</div>
+        <div>Hotel Block</div>
+        <div>Private Property</div>
+      </div>
+      <div class="comparison-row">
+        <div>12 guests, 3 nights</div>
+        <div>$5,400 - $9,000</div>
+        <div>$3,600 - $5,400</div>
+      </div>
+      <div class="comparison-row highlight">
+        <div>Per person, per night</div>
+        <div>$150-250</div>
+        <div>$100-150</div>
+      </div>
+      <div class="comparison-row">
+        <div>16 guests, 3 nights</div>
+        <div>$7,200 - $12,000</div>
+        <div>$4,500 - $7,200</div>
+      </div>
+      <div class="comparison-row highlight">
+        <div>Per person, per night</div>
+        <div>$150-250</div>
+        <div>$95-150</div>
+      </div>
+      <div class="comparison-row">
+        <div>Private pool included</div>
+        <div><span class="x">&#10005;</span></div>
+        <div><span class="check">&#10003;</span></div>
+      </div>
+      <div class="comparison-row highlight">
+        <div>Everyone together</div>
+        <div><span class="x">&#10005;</span></div>
+        <div><span class="check">&#10003;</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Questions About Booking?</h2>
+    <p>We're happy to help you find the right property for your wedding party.</p>
+    <a href="mailto:hello@weddingpartynola.com" class="btn btn-outline">Get in Touch</a>
+  </div>
+</section>

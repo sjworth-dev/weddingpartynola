@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="guide-header">
+  <div class="container-narrow">
+    <span class="accent-text">{{ page.category | default: "Guide" }}</span>
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+<article class="guide-content">
+  <div class="container-narrow">
+    {{ content }}
+  </div>
+</article>
+
+{% if page.cta != false %}
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to Book Your Wedding Party Stay?</h2>
+    <p>Private properties in New Orleans for your whole wedding party.</p>
+    <a href="/properties/" class="btn btn-outline">View Properties</a>
+  </div>
+</section>
+{% endif %}

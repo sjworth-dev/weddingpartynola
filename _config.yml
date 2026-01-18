@@ -1,0 +1,24 @@
+title: Wedding Party NOLA
+description: Private properties for your wedding party. Stay together, not scattered across hotel floors.
+url: "https://weddingpartynola.com"
+baseurl: ""
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
