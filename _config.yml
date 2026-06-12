@@ -1,7 +1,9 @@
 title: Wedding Party NOLA
 description: Private properties for your wedding party. Stay together, not scattered across hotel floors.
-url: "https://weddingpartynola.com"
+url: "https://staytogethernola.com"
 baseurl: ""
+image: /assets/images/castleday-aerial.jpg
+permalink: pretty
 
 collections:
   guides:
@@ -14,9 +16,14 @@ defaults:
       type: "guides"
     values:
       layout: "guide"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/castleday-aerial.jpg
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile

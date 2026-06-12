@@ -55,13 +55,16 @@ Private properties are rented as a whole, then split among guests:
 |----------|--------------|-----------|-----------|-----------|
 | Smaller (6BR) | $800-1,200 | $67-100/person | $50-75/person | — |
 | Larger (8BR) | $1,200-1,800 | $100-150/person | $75-113/person | $60-90/person |
+| Large villa (12BR) | $1,600-2,400 | $133-200/person | $100-150/person | $80-120/person |
+
+A 12-bedroom villa with a group of 16 is the sweet spot: roughly $100-150 per person per night, everyone gets a real bed, and most people get their own room. You don't need to fill it.
 
 ### Compare to Hotels
 
 | Option | Per Person/Night | For 12 people, 3 nights |
 |--------|------------------|------------------------|
 | Hotel rooms | $150-250 | $5,400-9,000 |
-| Private property | $75-150 | $2,700-5,400 |
+| Private property | $100-150 | $3,600-5,400 |
 
 **The math usually favors private properties**—and you get a pool, kitchen, and actual living space.
 
